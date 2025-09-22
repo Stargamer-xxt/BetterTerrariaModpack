@@ -1,0 +1,332 @@
+﻿ModVersion = "5.0.0.38"
+
+[Accessibility]
+
+	# Allows you to press the jump button a bit prior landing, having your jump still be performed.
+	EnableJumpInputBuffering = true
+
+	# When enabled, almost every item in the game will be able to be used repeatedly by holding down the use button.
+	# Prevents carpal tunnel syndrome, recommended by 10 out of 10 doctors.
+	ForceAutoReuse = true
+
+[Aesthetics]
+
+	# When enabled, tree falling animations' behavior of redirecting stump hits a block higher will be compensated with removal of the stump after the animation's end.'
+	DestroyStumpsAfterTreeFalls = true
+
+	# When enabled, lighting from equipment such as the 'Mining Helmet' will become aimable towards the cursor.
+	EnableAimableFlashlights = true
+
+	# When enabled, trees will physically fall down instead of exploding into items.
+	EnableTreeFallingAnimations = true
+
+[Ambience]
+
+	# Toggles ambient audio loops, like birds, cricket, wind, cave sounds, etc.
+	EnableAmbientSounds = true
+
+	# Whether to enable any 'muffling' sound processing.
+	EnableLowPassFiltering = true
+
+	# Toggles player character footstep audio
+	EnablePlayerFootsteps = true
+
+	# Whether to enable any reverberation sound processing.
+	EnableReverb = true
+
+	# If enabled - going underwater will reduce the sound frequency range via 'low-pass filtering'.
+	EnableUnderwaterMuffling = true
+
+[Archery]
+
+	# When enabled, arrows will be visible on bows and repeaters before they're fired.
+	EnableArcheryArrowVisualization = true
+
+	# When enabled, destroyed arrows will break into tiny pieces.
+	EnableArrowFragments = true
+
+	# When enabled, most bows will be able to be charged via right click.
+	EnableBowChargedShots = true
+
+	# When enabled, archers will be able to temporarily hover in mid-air by charging a bow and holding the jump button.
+	EnableBowChargeHovering = true
+
+	# When enabled, bows' primary use will be slightly delayed to make them more unique. This does not affect their damage output.
+	EnableBowFiringDelays = true
+
+	# When enabled, bows will launch archers when firing during a hover charge, acting as a double jump.
+	EnableBowHoverJumps = true
+
+	# When enabled, bows will receive new sound effects.
+	EnableBowSoundReplacements = true
+
+[Awareness]
+
+	# Controls the intensity of low pass audio filtering (muffling) that occurs when you are low on health.
+	LowHealthFilteringIntensity = 1
+
+	# Controls the volume of the sound that plays when you are low on health.
+	LowHealthSoundVolume = 1
+
+	# Controls the volume of the sound that plays when you are low on mana.
+	LowManaSoundVolume = 1
+
+	# Controls the volume of the sound that plays when mana is regenerating.
+	ManaRegenerationSoundVolume = 1
+
+[Balance]
+
+	# The banner rework removes banners' effects of lowering enemies' health and damage, instead replacing that with double loot and coin drops.
+	# Both the drop chance and drop quantity are affected.
+	EnableBannerRework = true
+
+	# When enabled, all damage numbers in the game will be made fair and predictable.
+	EnableDamageRandomizationRemoval = true
+
+	# Toggles the mod's changes to difficulty levels as a whole.
+	EnableDifficultyChanges = false
+
+	EnableHealthDropsRework = true
+
+	EnableManaDropsRework = true
+
+[BloodAndGore]
+
+	# When enabled, vanilla blood & similar particles will be replaced with Overhaul's advanced linear particles, which are able to leave decals.
+	EnableAdvancedParticles = true
+
+	# Toggles decals, also known as 'blood on tiles'.
+	EnableDecals = false
+
+	# Whether interactions with gores can produce sounds.
+	EnableGoreAudio = true
+
+	# Whether gores can spawn particles when flying through the air.
+	EnableGoreBleeding = true
+
+	# Whether gores can be set on fire.
+	EnableGoreBurning = true
+
+	# Whether gores can be destroyed, with some breaking into smaller pieces.
+	EnableGoreGibbing = true
+
+	# Whether gores (& similar clutter, like bullet casings) can bounce and float in water.
+	EnableGorePhysics = true
+
+	# When enabled, gore (or more specifically 'gibs') will not disappear after ~10 seconds.
+	EnableGoreStay = false
+
+	# When enabled, player characters will create dynamically-generated gore on death, instead of having their bits fly off-screen.
+	EnablePlayerCharacterGore = true
+
+	# If set below 1.0 - reduces the amount of normal (non-bloody) particles. Set to '0.0' to completely disable them.
+	ParticleMultiplierSafe = 1
+
+	# If set below 1.0 - reduces the amount of blood particles. Set to '0.0' to completely disable them.
+	ParticleMultiplierViolent = 1
+
+[Camera]
+
+	# How much damping to apply to the camera's movement to improve the feel of velocity.
+	# Set this to zero to disable the feature completely.
+	CameraSmoothness = 1
+
+	# When enabled, the camera update rate is locked to 60hz to prevent the player character spazzing out on high refresh rate monitors.
+	# It's currently best that you leave this on.
+	LimitCameraUpdateRate = true
+
+	# Controls the strength of screen shaking effects.
+	# Set this to zero to disable the feature completely.
+	ScreenShakeStrength = 1
+
+[Enemies]
+
+	# When enabled, walking enemies may lunge at you when they get close.
+	EnableEnemyLunges = true
+
+[Guns]
+
+	# When enabled, guns may offset the player's cursor when fired.
+	# Experimental feature, disabled by default.
+	EnableAimingRecoil = false
+
+	# When enabled, some guns will get new alternate firing modes.
+	EnableAlternateGunFiringModes = true
+
+	# When enabled, some weapons will emit ammo casings that fit them.
+	EnableBulletCasings = true
+
+	# When enabled, bullet-like projectiles produce a new sound when hitting the ground.
+	EnableBulletImpactAudio = true
+
+	# When enabled, all guns affected by Overhaul will receive new satisfying sound effects.
+	EnableGunSoundReplacements = true
+
+	# When enabled, minigun-like weapons will allow players to slightly hover in the air by firing downwards.
+	EnableMinigunRecoilHovering = true
+
+	# When enabled, firing weapons will produce pretty muzzleflashes.
+	EnableMuzzleflashes = true
+
+	# When enabled, the Star Cannon (and similar weapons) will allow players to slightly hover in the air by firing downwards.
+	EnableStarCannonRecoilHovering = true
+
+[Interface]
+
+	# When enabled, the mouse cursor will be replaced with an advanced animated crosshair when using projectile-firing weapons.
+	EnableCrosshair = true
+
+	# Whether the crosshair should animate in reaction to weapons firing and going on cooldowns.
+	EnableCrosshairAnimations = true
+
+[Magic]
+
+	# When enabled, most magic weapons will be able to perform a charged attack via alternate use.
+	EnableMagicPowerAttacks = false
+
+	# Whether to give new sound effects to some magic weapons.
+	EnableMagicSoundReplacements = true
+
+	# Whether to show the 'Mana Absorption' buff icon when magic weapon are equipped.
+	# This option does not affect gameplay.
+	EnableManaRegenerationIcon = true
+
+	# When enabled, mana regeneration logic will be reworked and rebalanced to encourage movement.
+	EnableManaRegenerationRework = true
+
+[Melee]
+
+	# Toggles the ability to perform charged power attacks with axes via right clicking.
+	EnableAxePowerAttacks = true
+
+	# Whether to give new sound effects to axes.
+	EnableAxeSoundReplacements = true
+
+	# Toggles the ability to perform charged power attacks with broadswords via right clicking.
+	EnableBroadswordPowerAttacks = false
+
+	# Whether to give new sound effects to broadswords.
+	EnableBroadswordSoundReplacements = true
+
+	# Toggles the ability to perform charged power attacks with hammers via right clicking.
+	EnableHammerPowerAttacks = true
+
+	# Whether to give new sound effects to hammers.
+	EnableHammerSoundReplacements = true
+
+	# When enabled, melee weapons' collision will be changed from a static rectangle to that of a circular arc.
+	# Enabling the 'Enable Melee Attack Aiming' option is heavily recommended.
+	EnableImprovedMeleeCollision = true
+
+	# Toggles melee air combat, which allows you to accelerate yourself in any direction using movement keys every time you hit an enemy mid-air.
+	# Use your foes as stepladders; Chain attacks on flying enemies; Gain greater momentum to fall-strike ground brutes.
+	EnableMeleeAirCombat = true
+
+	# When enabled, melee weapons will become fully aimable.
+	# Requires the 'Enable Improved Melee Collision' option to be enabled to actually affect gameplay.
+	EnableMeleeAttackAiming = true
+
+	# When enabled, broadswords will be able to perform 'Killing Blows' by power-striking already hurt foes, increasing damage whenever that would finish the enemy.
+	EnableMeleeKillingBlows = true
+
+	# When enabled, swinging a melee weapon can accelerate you towards the direction of the swing.
+	# This can be further controlled using movement keys, as you'll never be thrown forward when you're holding back movement.
+	# Use together with power attacks to significantly boost your jumps and damage.
+	EnableMeleeSwingVelocity = true
+
+	# When enabled, all your melee damage will be affected by how fast you're moving.
+	EnableMeleeVelocityBasedDamage = true
+
+	# Whether to show the 'Hack and Slash' buff icon when broadswords are equipped.
+	# This option does not affect gameplay.
+	EnableMeleeVelocityBasedDamageIcon = true
+
+	# Whether to give new sound effects to pickaxes.
+	EnablePickaxeSoundReplacements = true
+
+	# Experimental.
+	# When enabled, broadswords that shoot projectiles will use a bit of mana.
+	# Mages' mana regeneration and mana drop rules still apply, so this isn't very significant.
+	EnableProjectileSwordManaUsage = true
+
+[Movement]
+
+	# When enabled, players will always be able to hold down the space key to jump repeatedly.
+	EnableAutoJump = true
+
+	# Bunnyhopping gives you a slight horizontal boost every time you jump.
+	# Turning this off will disable certain accessories.
+	EnableBunnyhopping = true
+
+	# Climbing lets you reach new heights by holding the up button.
+	EnableClimbing = true
+
+	# Toggles sounds that denote that a dodgeroll charge has been refilled, or that there's no charges left.
+	EnableDodgerollAudioCues = true
+
+	# When enabled, players will be able to perform a dodgeroll via an assigned button.
+	# Dodgerolls grant short-term invincibility, as well as tons of movement opportunities.
+	EnableDodgerolls = true
+
+	# When enabled, grappling hooks' behavior will be changed to allow swinging around on them using movement keys.
+	# NOTE: The grappling hook button can be held down to execute a vanilla-like pull, so you don't need to choose between the two behaviors and can combine them.
+	# NOTE: This feature does not apply to every hook in the game, also multihooks revert to vanilla behavior whenever more than one hook is connected.
+	EnableGrapplingHookPhysics = true
+
+	# Toggle changes to horizontal friction, run max speed and acceleration.
+	EnableHorizontalAccelerationChanges = true
+
+	# When enabled, the players will be able to perform a 'Roll Jump' by combining a landing jump (bunnyhop) with a well-timed dodgeroll.
+	EnableRollJumps = true
+
+	# Toggle air friction and (almost) unlimited maximum fall speed.
+	EnableVerticalAccelerationChanges = true
+
+	# A wall flip is a new movement mechanic that does not require any accessories.
+	# It is done by hitting a wall with your front with enough velocity while holding the horizontal movement opposite of the player's direction.
+	EnableWallFlips = true
+
+	# Wall jumping is a new movement mechanic that requires climbing gear or spike shoes.
+	# It is done by hitting a wall with your back while holding the up button with horizontal movement buttons released.
+	EnableWallJumping = true
+
+[Music]
+
+	# When enabled, music will be temporarily stopped whenever a boss is killed. For a dramatic effect.
+	EnableBossDeathMusicStop = true
+
+	# When enabled, music tracks will always pause in place of stopping.
+	# This means that whenever you come back to a biome you've already been at, its music will resume playing where it has been whenever you left it.
+	# Greatly improves game feel, since you won't be stuck hearing music tracks' intros when moving around the world.
+	EnableMusicPlaybackPositionPreservation = true
+
+[Tweaks]
+
+	# When enabled, the operational system's cursor will be enabled when game interface is disabled using the F11 hotkey.
+	# This is a tiny utility change that eases recording gameplay footage without UI, as recording software can disable capture of the OS cursor.
+	DisplaySystemCursorWithDisabledUI = true
+
+[Visuals]
+
+	# Toggle weapons with the 'holding out' use style being visible when not firing.
+	AlwaysShowAimableWeapons = true
+
+	# Toggles enemy sprites being slightly tilted depending on their velocity
+	EnableEnemyTiltingEffects = false
+
+	# When enabled, melee weapon swing animations will be changed to a more immediate swing, with alternating directions.
+	# This is best kept on, as it best mimics the timing and direction of melee damage collision.
+	EnableImprovedMeleeAnimations = true
+
+	# When enabled, a circular slash sprite will appear when swinging melee weapons.
+	# This is best kept on, as it best mimics the range and collision arc of the weapon.
+	EnableMeleeSlashVisualization = true
+
+	# Toggles player characters looking at their cursors.
+	EnablePlayerHeadRotation = true
+
+	# Toggles player characters being slightly tilted based on their velocity. This makes them look a lot more alive.
+	EnablePlayerTilting = true
+
+	# When enabled, firing weapons will slightly rotate their sprites in player characters' hands.
+	EnableVisualWeaponRecoil = true
