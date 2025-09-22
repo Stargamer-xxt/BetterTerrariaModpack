@@ -3,6 +3,7 @@ Helping us with said development. So to put this even more simply, on the page, 
 future. However, for more information, this modpack is a combination of Calamity and Fargo's Souls, as well as many other small mods to enhance the experience. I hope that works out for you. But yeah,
 To summarize, we want your help to make this experience better, and we want you to enjoy playing this modpack.
 
+Also, the fullmodpack can be downloaded here: (insert link here)
 
 
 Sincerely, BT Devs
