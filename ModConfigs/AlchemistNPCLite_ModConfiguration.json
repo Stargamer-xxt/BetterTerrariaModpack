@@ -1,5 +1,5 @@
 {
-  "StarPrice": 300,
-  "WormholePrice": 2500,
-  "SiltSlushPrice": 500
+  "ModItems": false,
+  "StarPrice": 500,
+  "WormholePrice": 2500
 }
