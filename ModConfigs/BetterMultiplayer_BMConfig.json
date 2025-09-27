@@ -1,3 +1,5 @@
 {
-  "TeamToJoin": "Blue"
+  "TeamToJoin": "Blue",
+  "NoBossFightRespawn": false,
+  "WitchDoctorWormhole": false
 }
