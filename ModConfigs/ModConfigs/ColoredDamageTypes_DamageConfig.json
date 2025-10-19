@@ -1,0 +1,24 @@
+{
+  "VanillaDmg": {
+    "MeleeDmg": {
+      "MeleeDamage": "191, 20, 20, 255",
+      "MeleeDamageCrit": "170, 0, 30, 255"
+    },
+    "RangedDmg": {},
+    "MagicDmg": {
+      "MagicDamageCrit": "55, 130, 200, 255"
+    },
+    "ThrowingDmg": {
+      "ThrowingDamage": "220, 135, 0, 255",
+      "ThrowingDamageCrit": "170, 90, 30, 255"
+    },
+    "SummonDmg": {
+      "SummonDamage": "255, 115, 190, 255",
+      "SummonDamageCrit": "200, 105, 175, 255"
+    },
+    "SentryDmg": {
+      "SentryDamage": "150, 115, 220, 255",
+      "SentryDamageCrit": "105, 85, 185, 255"
+    }
+  }
+}

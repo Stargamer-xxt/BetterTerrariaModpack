@@ -1,0 +1,40 @@
+{
+  "CrossModDamageConfig": {
+    "CalamityMod.AverageDamageClass": {
+      "dtname": "AverageDamageClass",
+      "TooltipColor": "255, 255, 255, 255",
+      "DamageColor": "255, 255, 255, 255",
+      "CritDamageColor": "255, 255, 255, 255"
+    },
+    "CalamityMod.TrueMeleeDamageClass": {
+      "dtname": "True Melee",
+      "TooltipColor": "140, 0, 0, 255",
+      "DamageColor": "140, 0, 2, 255",
+      "CritDamageColor": "85, 0, 0, 255"
+    },
+    "CalamityMod.TrueMeleeNoSpeedDamageClass": {
+      "dtname": "TrueMeleeNoSpeedDamageClass",
+      "TooltipColor": "140, 0, 0, 255",
+      "DamageColor": "140, 0, 0, 255",
+      "CritDamageColor": "85, 0, 0, 255"
+    },
+    "CalamityMod.RogueDamageClass": {
+      "dtname": "Rogue",
+      "TooltipColor": "181, 70, 181, 255",
+      "DamageColor": "181, 70, 181, 255",
+      "CritDamageColor": "140, 42, 150, 255"
+    },
+    "CalamityMod.StealthDamageClass": {
+      "dtname": "Rogue Stealth",
+      "TooltipColor": "200, 90, 200, 255",
+      "DamageColor": "200, 90, 200, 255",
+      "CritDamageColor": "150, 80, 170, 255"
+    },
+    "CalamityMod.MeleeRangedHybridDamageClass": {
+      "dtname": "MeleeRangedHybrid",
+      "TooltipColor": "200, 200, 0, 255",
+      "DamageColor": "200, 200, 0, 255",
+      "CritDamageColor": "150, 150, 0, 255"
+    }
+  }
+}
