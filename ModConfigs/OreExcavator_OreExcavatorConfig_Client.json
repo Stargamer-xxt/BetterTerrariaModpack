@@ -1,5 +1,5 @@
 {
-  "recursionLimit": 300,
+  "recursionLimit": 500,
   "tileWhitelist": [
     "Terraria:Iron",
     "Terraria:Copper",

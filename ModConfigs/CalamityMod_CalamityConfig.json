@@ -1,6 +1,6 @@
-{
+ {
   "NewVanillaTextures": false,
-  "FlightBar": false,
+  "FlightBar": true,
   "EarlyHardmodeProgressionRework": false,
   "RageMeterPosX": 42.86,
   "AdrenalineMeterPosX": 42.86

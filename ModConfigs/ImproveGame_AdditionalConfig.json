@@ -1,0 +1,26 @@
+{
+  "FavoritedModernConfigOptions": [
+    "ImproveConfigs.SuperVault",
+    "ImproveConfigs.GrabDistance",
+    "ImproveConfigs.ExtraToolSpeed",
+    "ImproveConfigs.ModifyPlayerPlaceSpeed",
+    "ImproveConfigs.ModifyPlayerTileRange",
+    "ImproveConfigs.NPCCoinDropRate",
+    "ImproveConfigs.BannerRequirement",
+    "ImproveConfigs.ModifyNPCHappiness",
+    "ImproveConfigs.NoSleepRestrictions",
+    "ImproveConfigs.RedPotionRequirement",
+    "ImproveConfigs.NoCD_FishermanQuest",
+    "ImproveConfigs.LightNotBlocked",
+    "ImproveConfigs.OnlyHost"
+  ],
+  "FavoritedBuffs": [],
+  "LifeformAnalyzer": {},
+  "WandMode": {},
+  "HugeInventoryUIPosition": "150, 340",
+  "BuffTrackerPosition": "630, 160",
+  "WorldFeaturePosition": "250, 280",
+  "ItemSearcherPosition": "620, 400",
+  "OpenBagPosition": "410, 360",
+  "PlayerInfoTogglePosition": "572, 20"
+}
