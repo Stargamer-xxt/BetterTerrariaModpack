@@ -2,7 +2,8 @@ Thanks for reading this and taking a look at our modpack. My friend ooguillotine
 
 The link to the tPackBuilder Git page is here if you want to learn how to use it: https://github.com/bereft-souls/tPackBuilder
 
-Also, the most recent version of the full modpack can be downloaded here: https://drive.google.com/drive/folders/1Wxty9-xvCaN9ctjStCtIwfLUH3w3cXYf?usp=drive_link
 Before downloading the modpack you have to have the full mod list pre-downloaded so it works from this steam collection: https://steamcommunity.com/sharedfiles/filedetails/?id=3590017509
+
+Also, the most recent version of the full modpack can be downloaded here: https://drive.google.com/drive/folders/1Wxty9-xvCaN9ctjStCtIwfLUH3w3cXYf?usp=drive_link
 
 Sincerely, BT Devs
