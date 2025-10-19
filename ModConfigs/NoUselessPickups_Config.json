@@ -1,0 +1,8 @@
+{
+  "Hearts": {
+    "thresholdFlat": 20
+  },
+  "ManaStars": {
+    "thresholdFlat": 100
+  }
+}
